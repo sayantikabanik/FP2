@@ -22,7 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up conda
+      - name: Set up env
         uses: conda-incubator/setup-miniconda@master
         with:
           miniforge-variant: Miniforge3
