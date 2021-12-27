@@ -18,3 +18,15 @@ conda list
 conda info
 conda deactivate
 ```
+### Installing the package in local 
+```shell
+pip install -e .
+```
+
+### Basic flow how to make best use of the workflow
+- Clone the repo
+- Create the env using the above commands 
+- Install the package 
+- All the tests goes into the `tests` directory 
+- Any random test experiements eg- checking data stats etc goes under `experiments` directory
+- All modelling and related details into `forecasting_framework`, create subdirectories as required 
