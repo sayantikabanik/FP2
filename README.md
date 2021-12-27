@@ -38,3 +38,7 @@ pip install -e .
 - All the tests goes into the `tests` directory 
 - Any random test experiements eg- checking data stats etc goes under `experiments` directory
 - All modelling and related details into `forecasting_framework`, create subdirectories as required 
+
+### How to contribute to the repo
+- Create a separate branch for your usecase 
+- Raise PR (dont commit to main under any circumstance)
