@@ -13,9 +13,17 @@
 We are pinning python version to 3.8 
 ```shell
 conda env create --file environment.yml
+```
+```shell
 conda activate fp2
+```
+```shell
 conda list
+```
+```shell
 conda info
+```
+```shell
 conda deactivate
 ```
 ### Installing the package in local 
