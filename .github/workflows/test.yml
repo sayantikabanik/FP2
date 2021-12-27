@@ -27,7 +27,7 @@ jobs:
         with:
           miniforge-variant: Miniforge3
           miniforge-version: latest
-          activate-environment: mlops
+          activate-environment: fp2
           environment-file: environment.yml
           python-version: ${{ matrix.python-version }}
           auto-activate-base: false
