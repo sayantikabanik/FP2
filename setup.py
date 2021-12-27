@@ -9,7 +9,7 @@ setup(
     author="sayantikabanik",
     description="Forecasting FP2",
     include_package_data=True,
-    name="mlops_framework",
+    name="forecasting_framework",
     packages=find_packages(),
     url="https://github.com/sayantikabnik/FP2",
     version=version,
