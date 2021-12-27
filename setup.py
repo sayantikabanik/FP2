@@ -1,5 +1,4 @@
 from pathlib import Path
-
 from setuptools import find_packages, setup
 
 version_file = open(Path.joinpath(Path.cwd(), "VERSION"))
@@ -12,6 +11,4 @@ setup(
     name="forecasting_framework",
     packages=find_packages(),
     url="https://github.com/sayantikabnik/FP2",
-    version=version,
-)
-
+    version=version)
