@@ -36,8 +36,12 @@ pip install -e .
 - Create the env using the above commands 
 - Install the package 
 - All the tests goes into the `tests` directory 
-- Any random test experiements eg- checking data stats etc goes under `experiments` directory
+- Any random test experiements eg- checking data stats etc goes under `experiments` directory which can be ipython notebooks
 - All modelling and related details into `forecasting_framework`, create subdirectories as required 
+- Under forecasting_framework there are three submodules `utils`, `model`, `data` 
+  - `utils` will comprise reusable code components
+  - all modelling aspects does under `model` (python scripts are highly encouraged)
+  - anything data or static data files csv or other formats goes under `data` 
 
 ### How to contribute to the repo
 - Create a separate branch for your usecase 
