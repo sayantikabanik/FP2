@@ -44,4 +44,4 @@ jobs:
 
       - name: Test with pytest
         run: |
-          pytest /FP2/tests -vvv
+          pytest tests -vvv
