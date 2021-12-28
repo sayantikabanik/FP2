@@ -2,6 +2,7 @@ name: fp2
 channels:
 - conda-forge
 dependencies:
+- python=3.8
 - pre-commit
 - jupyterlab
 - ipykernel
@@ -20,7 +21,6 @@ dependencies:
 - psycopg2
 - pyarrow
 - pytest
-- python=3.8
 - pyyaml
 - requests
 - seaborn
