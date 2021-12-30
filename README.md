@@ -12,7 +12,7 @@
 ### Commands to create and use conda environment
 We are pinning versions of the packages
 <details>
-  <summary> `conda list` after you complete the below steps </summary>
+  <summary> "conda list" look and feel after you complete the below steps </summary>
   
   ```python
 
