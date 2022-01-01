@@ -18,3 +18,6 @@ dependencies:
 - scikit-learn=1.0
 - statsmodels=0.13
 - urllib3=1.26
+- pycaret=2.3
+- xgboost=1.5
+- imageio=2.13
