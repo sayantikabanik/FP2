@@ -6,7 +6,7 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 with open(Path.joinpath(Path.cwd(), "VERSION"), encoding='utf8') as version_file:
-	version = version_file.read().strip()
+    version = version_file.read().strip()
 
 setup(
     author="sayantikabanik",
