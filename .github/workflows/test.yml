@@ -40,7 +40,3 @@ jobs:
         run: conda info
       - name: Conda list
         run: conda list
-
-      - name: Test with pytest
-        run: |
-          python -m pytest
