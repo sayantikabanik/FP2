@@ -1,8 +1,13 @@
+"""
+Package manager for forecasting_framework
+"""
+
 from pathlib import Path
 from setuptools import find_packages, setup
 
-version_file = open(Path.joinpath(Path.cwd(), "VERSION"))
+version_file = open(Path.joinpath(Path.cwd(), "VERSION"), encoding='utf8')
 version = version_file.read().strip()
+version_file.close()
 
 setup(
     author="sayantikabanik",
