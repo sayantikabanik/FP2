@@ -23,5 +23,5 @@ dependencies:
 - pycaret=2.3
 - xgboost=1.5
 - imageio=2.13
-- dagit
-- dagster
+- dagit=0.13
+- dagster=0.13
