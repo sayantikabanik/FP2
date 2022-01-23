@@ -19,9 +19,9 @@ dependencies:
   - scikit-learn=1.0
   - statsmodels=0.13
   - urllib3=1.26
-  - dagit
-  - dagster
   - pip:
     - pycaret
     - xgboost
     - imageio
+    - dagit
+    - dagster
