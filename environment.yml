@@ -4,8 +4,6 @@
 name: fp2
 channels:
 - conda-forge
-- defaults
-- conda-forge/label/broken
 dependencies:
 - python=3.8
 - pre-commit=2.16
