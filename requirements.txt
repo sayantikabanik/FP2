@@ -13,5 +13,3 @@ statsmodels
 pycaret
 xgboost
 imageio
-dagit
-dagster
