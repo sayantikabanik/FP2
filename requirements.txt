@@ -1,0 +1,17 @@
+pandas
+requests
+numpy
+Flask
+matplotlib
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+scipy
+statsmodels
+pycaret
+xgboost
+imageio
+dagit
+dagster
