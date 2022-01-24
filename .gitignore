@@ -1,8 +1,0 @@
-# DDL stuff
-__pycache__/
-*.py[cod]
-*$py.class
-
-# IPython/Jupyter stuff
-.ipynb_checkpoints/
-
