@@ -18,11 +18,11 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="Commodity Name" placeholder="Commodity Name" required="required" />
-        <input type="text" name="Commodity Category" placeholder="Commodity Category" required="required" />
-        <input type="text" name="Rainfall Amount" placeholder="Rainfall Amount" required="required" />
-        <input type="text" name="Prediction Month" placeholder="Prediction Month" required="required" />
-        <input type="text" name="Prediction Year" placeholder="Prediction Year" required="required" />
+    	<input type="number" name="Commodity Code" placeholder="Commodity Name" required="required" />
+        <input type="number" name="Commodity Category Code" placeholder="Commodity Category" required="required" />
+        <input type="number" name="Rainfall Amount" placeholder="Rainfall Amount" required="required" min="0" value="0" step=".01" />
+        <input type="number" name="Prediction Month" placeholder="Prediction Month" required="required" />
+        <input type="number" name="Prediction Year" placeholder="Prediction Year" required="required" />
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
 
