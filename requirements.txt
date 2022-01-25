@@ -10,3 +10,6 @@ Werkzeug==1.0.1
 scipy==1.6.2
 statsmodels==0.12.2
 xgboost==1.5.2
+lightgbm
+sklearn
+seaborn
