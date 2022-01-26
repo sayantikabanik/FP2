@@ -19,12 +19,33 @@
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
 <!--    	<input name="Commodity Code" placeholder="Commodity Code" required="required"-->
-         <label for="commodity">Choose a commodity:</label>
+         <label for="commodity">Choose a Commodity:</label>
             <select id="commodity" name="commodity">
-            <option value=67>Wheat</option>
-            <option value=4>Bajra</option>
+                <option value=67>Wheat</option>
+                <option value=4>Bajra</option>
+                <option value=39>Bajra</option>
+                <option value=56>Bajra</option>
+                <option value=52>Bajra</option>
+                <option value=42>Bajra</option>
+                <option value=37>Bajra</option>
+                <option value=2>Bajra</option>
+                <option value=64>Bajra</option>
+                <option value=26>Bajra</option>
+                <option value=62>Bajra</option>
+                <option value=21>Bajra</option>
           </select>
-        <input type="number" name="Commodity Category Code" placeholder="Commodity Category Code" required="required" />
+        <br>
+<!--        <input type="number" name="Commodity Category Code" placeholder="Commodity Category Code" required="required" />-->
+        <label for="commodity">Choose a Commodity Category:</label>
+            <select id="category" name="category">
+                <option value=0>Cereals</option>
+                <option value=4>Pulses</option>
+                <option value=5>Vegetables</option>
+                <option value=2>Fruits</option>
+                <option value=1>Condiments and Spices</option>
+                <option value=3>Other food articles</option>
+          </select>
+        <br>
         <input type="number" name="Rainfall Amount" placeholder="Rainfall Amount" required="required" min="0" value="0" step=".01" />
         <input type="number" name="Prediction Month" placeholder="Prediction Month" required="required" />
         <input type="number" name="Prediction Year" placeholder="Prediction Year" required="required" />
