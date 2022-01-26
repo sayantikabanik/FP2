@@ -18,7 +18,12 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="number" name="Commodity Code" placeholder="Commodity Code" required="required" />
+<!--    	<input name="Commodity Code" placeholder="Commodity Code" required="required"-->
+         <label for="commodity">Choose a commodity:</label>
+            <select id="commodity" name="commodity">
+            <option value=67>Wheat</option>
+            <option value=4>Bajra</option>
+          </select>
         <input type="number" name="Commodity Category Code" placeholder="Commodity Category Code" required="required" />
         <input type="number" name="Rainfall Amount" placeholder="Rainfall Amount" required="required" min="0" value="0" step=".01" />
         <input type="number" name="Prediction Month" placeholder="Prediction Month" required="required" />
