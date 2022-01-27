@@ -23,6 +23,7 @@ dependencies:
     - pycaret
     - xgboost
     - imageio
-    - dagit
-    - dagster
-    - intake
+    - dagit==0.12.15
+    - dagster==0.12.15
+    - xlrd==2.0.1
+    - openpyxl==3.0.9

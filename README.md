@@ -150,3 +150,7 @@ pip install -e .
 ### How to contribute to the repo
 - Create a separate branch for your usecase 
 - Raise PR (dont commit to main under any circumstance)
+
+### Running the data pipline 
+- `python pipeline.py` - returns the processed data in ~/data directory
+- `dagit -f pipeline.py` - Dagster UI
