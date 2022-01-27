@@ -1,0 +1,16 @@
+metadata:
+  version: 1
+
+sources:
+  route_dataset:
+    driver: csv
+    description: "Raw commodity data"
+    args:
+      urlpath: 
+      
+sources:
+  route_dataset:
+    driver: csv
+    description: "Rainfall data"
+    args:
+      urlpath: 

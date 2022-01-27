@@ -25,3 +25,4 @@ dependencies:
     - imageio
     - dagit
     - dagster
+    - intake
