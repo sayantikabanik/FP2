@@ -154,3 +154,9 @@ pip install -e .
 ### Running the data pipline 
 - `python pipeline.py` - returns the processed data in ~/data directory
 - `dagit -f pipeline.py` - Dagster UI
+
+### Running tests
+Install pytest (it is not part of environment.yml/package)
+It should be installed locally
+- `pip install pytest==6.2.5`
+- `pytest tests`

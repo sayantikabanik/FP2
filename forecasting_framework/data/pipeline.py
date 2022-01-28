@@ -6,13 +6,13 @@ from forecasting_framework.utils.pre_processing import pre_process
 
 @solid
 def read_commodity_data_raw():
-    df_commodity = pd.read_excel("Rawdata.xls")
+    df_commodity = pd.read_excel("forecasting_framework/data/Rawdata.xls")
     return df_commodity
 
 
 @solid
 def read_rainfall_data_raw():
-    df_rainfall = pd.read_csv("Rainfall_2020.csv")
+    df_rainfall = pd.read_csv("forecasting_framework/data/Rainfall_2020.csv")
     return df_rainfall
 
 
