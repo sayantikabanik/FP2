@@ -19,7 +19,7 @@ def read_rainfall_data_raw():
 @solid
 def process_data(df, rainfall_df):
     final_df = pre_process(df, rainfall_df)
-    final_df.to_excel('processed_data.xlsx', index=False)
+    final_df.to_excel('forecasting_framework/data/processed_data.xlsx', index=False)
     return final_df
 
 
