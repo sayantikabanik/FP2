@@ -6,3 +6,11 @@ __pycache__/
 # IPython/Jupyter stuff
 .ipynb_checkpoints/
 
+#post packaging installation
+eggs/
+.eggs/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
